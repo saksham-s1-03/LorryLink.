@@ -41,6 +41,6 @@ js/app.js       data, highway routing, map, fleet, rate calculator
 - Rates and highway data are approximate. Confirm NH numbers with NHAI/MoRTH and rates with transporters.
 
 ## Author
-Saksham Jain · [LinkedIn](https://linkedin.com/in/sakshamjain) · [GitHub](https://github.com/saksham-s1-03)
+Saksham Jain .  [GitHub](https://github.com/saksham-s1-03)
 
 MIT License
