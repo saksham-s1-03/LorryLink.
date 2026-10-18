@@ -1,4 +1,4 @@
-# LorryLink 🚛
+# LorryLink 
 
 A fleet management website for Indian truck and lorry businesses. Pure HTML, CSS and JavaScript: no backend, no database, no build step.
 
@@ -43,4 +43,5 @@ js/app.js       data, highway routing, map, fleet, rate calculator
 ## Author
 Saksham Jain .  [GitHub](https://github.com/saksham-s1-03)
 
-MIT License
+## LICENSE
+ PROPRIETARY SOFTWARE LICENSE.
