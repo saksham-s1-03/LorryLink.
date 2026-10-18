@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>LorryLink – Truck & Lorry Fleet Manager</title>
+<link rel="stylesheet" href="css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet"></head><body>
+<header><div class="logo">Lorry<b>Link</b><small>Fleet, tyres, freight rates and tracking for Indian trucking</small></div><nav><button data-t="live" class="on">Live map</button><button data-t="fleet">My fleet</button><button data-t="add">Add truck</button><button data-t="rate">Rate calculator</button></nav><button id="theme" title="Switch light or dark">◐</button></header>
+<main>
+<section id="live" class="sec on"><div class="stats" id="stats"></div>
+<div class="map-wrap"><div id="list"><input id="q" placeholder="Search number, driver or type"><div class="chips" id="fc"><button data-f="all" class="on">All</button><button data-f="transit">In transit</button><button data-f="parked">Parked</button><button data-f="alert">Alerts</button></div><button class="btn s" id="me">Show my location</button><div id="sel"></div><div id="lst"></div></div><div id="map"><div class="mc"><button id="zi" aria-label="Zoom in">+</button><button id="zo" aria-label="Zoom out">−</button><button id="zr" aria-label="Reset view">⟲</button></div></div></div>
+<div class="card" id="hw" style="margin-top:14px"></div><p style="font-size:12px;color:var(--mut)">Demo tracking: trucks move automatically on the map. Real GPS from many devices needs a server.</p></section>
+<section id="fleet" class="sec"><div class="grid" id="cards"></div></section>
+<section id="add" class="sec"><div class="form"><h2>Register a truck</h2>
+<label>Truck number</label><input id="reg" placeholder="MP20 GA 1234">
+<label>Truck type</label><select id="type"></select><div id="spec" class="card" style="margin-bottom:10px"></div>
+<div class="row"><div><label>Tyre brand</label><input id="brand" placeholder="MRF, Apollo, CEAT, JK"></div><div><label>Tyre km run so far</label><input id="km" type="number" value="0"></div></div>
+<div class="row"><div><label>Driver name</label><input id="dn"></div><div><label>Driver phone</label><input id="dp" maxlength="10"></div></div>
+<div class="row"><div><label>Current city</label><select id="from"></select></div><div><label>Going to (optional)</label><select id="to"></select></div></div>
+<div class="row"><div><label>Insurance expiry</label><input id="ins" type="date"></div><div><label>Fitness expiry</label><input id="fit" type="date"></div></div>
+<label>Permit expiry</label><input id="per" type="date"><button class="btn" id="save">Save truck</button> <span id="msg" class="warn"></span></div></section>
+<section id="rate" class="sec"><div class="form"><h2>Freight rate calculator</h2><div class="chips" id="pr"></div>
+<div class="row"><div><label>From</label><select id="rf"></select></div><div><label>To</label><select id="rt"></select></div></div>
+<div class="row"><div><label>Truck type</label><select id="rty"></select></div><div><label>Load weight (tonnes)</label><input id="rw" type="number" step="0.5" value="5"></div></div>
+<button class="btn" id="calc">Calculate</button><div id="out" style="margin-top:12px"></div>
+<p style="font-size:12px;color:var(--mut)">Rates are approximate Indian market values per km. Edit the RATES table in this file to match your quotes. GST (usually 5%) not included.</p></div></section>
+</main><div id="toast"></div>
+<script src="js/app.js"></script></body></html>
