@@ -1,6 +1,6 @@
 # LorryLink 
 
-A fleet management website for Indian truck and lorry businesses. Pure HTML, CSS and JavaScript: no backend, no database, no build step.
+A fleet management website for Indian truck and lorry businesses. Pure HTML, CSS and JavaScript.
 
 ## Features
 - **Live map of India** with moving trucks that follow national highway routes (demo tracking), zoom and pan, and layers for NH, link roads and cities
