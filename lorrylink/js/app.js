@@ -135,4 +135,4 @@ const e=$('#tot');let i=0;const st=()=>{i++;e.textContent=inr(tot*i/20);if(i<20)
 // Live simulation
 setInterval(()=>{fleet.forEach(t=>{if(!moving(t))return;t.p+=0.006*t.d;if(t.p>=1||t.p<=0){t.d*=-1;t.p=Math.max(0,Math.min(1,t.p))}0});save();drawTrucks();
 if($('#fleet').classList.contains('on')&&++tk%3===0)drawFleet()},2000);
-all();
+all(); 
