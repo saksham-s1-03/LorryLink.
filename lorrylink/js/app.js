@@ -1,4 +1,3 @@
-// Approximate Indian market data. Edit freely.
 const RATES={'Tata Ace (Mini)':{w:4,cap:0.75,rate:15,toll:0.8,tyre:'145R12'},'Pickup (Bolero)':{w:4,cap:1.5,rate:19,toll:1,tyre:'175R14'},
 '6-Wheeler Truck':{w:6,cap:9,rate:30,toll:1.8,tyre:'9.00R20'},'10-Wheeler Truck':{w:10,cap:16,rate:40,toll:2.5,tyre:'10.00R20'},
 '12-Wheeler Truck':{w:12,cap:21,rate:48,toll:3,tyre:'10.00R20'},'14-Wheeler Truck':{w:14,cap:28,rate:58,toll:3.5,tyre:'11.00R20'}};
